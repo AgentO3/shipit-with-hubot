@@ -1,7 +1,9 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1" />
-<title>Markdown Presenter</title>
+<link href='http://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'>
+
+<title></title>
 <style>
   html, body {
   	margin:0;
@@ -12,11 +14,15 @@
     overflow: hidden;
     -ms-touch-action: none;
     -moz-user-select:none;
+    font-family: 'Lilita One', cursive;
   }
   div.centered {
   	margin:auto;
   	font-size:40px;
   	width:20em; /* So we get about 10 words per line */
+  }
+  .centered h1 {
+    text-align: center;
   }
   .slideCount {
     position: fixed;
@@ -52,13 +58,13 @@
     text-shadow: #000 0 -2px 0;
   }
   .bg {
-    background-image: url(bg.jpg);
     position:absolute;
     left:0;
     right:0;
     top:0;
     bottom:0;
-    opacity:0.01;
+    opacity:0.45;
+    background-size: cover;
     z-index:-1;
    }
    code {
@@ -176,7 +182,18 @@ Present.showSlide = function(slide) {
 
   var $view = $('.for-screen .centered');
   this.currentEffect.pre($view, $.proxy(function () {
+
+      var backgroundImg = $(this.slides[this.currentSlide]).find('[alt=bg]').attr('src');
+
+      if (backgroundImg !== undefined) {
+        $('.bg').attr('style', "background-image:url('" + backgroundImg + "');");
+      } else {
+        $('.bg').attr('style', "");
+      }
+      
       $view.html(this.slides[this.currentSlide]);
+
+      $('.centered').find('[alt=bg]').hide();
       this.currentEffect.post($view);
   }, this));
 
