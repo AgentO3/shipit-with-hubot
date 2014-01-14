@@ -1,13 +1,31 @@
-![bg](http://octodex.github.com/images/hubot.jpg)
+![bg](http://www.megadroid.com/images/Hubot/hubot_RS_ad.jpg)
+
+<!-- 
+
+-->
+
 
 # Hubot More Than Meets The Eyes
 
 !
 
-## Meet Hubot
+![bg](/images/thing.jpg)
 
-- Thing the VividCortex Chatbot
-- Thing doge bomb me
+# Meet Thing The VividCortex Hubot
+
+!
+
+![bg](/images/vc-team.jpg)
+
+# About Me 
+
+@O3Design
+
+- Frontend developer
+- Deployment automation
+- Spearheading ChatOps
+- I brew beer, play guitar & snowboard!
+
 
 !
 
@@ -17,68 +35,124 @@
 
 !
 
+![bg](http://farm6.staticflickr.com/5018/5405915409_5065c4b297_b.jpg)
+
+# The ShipIt Culture
+
+!
+
+![bg](http://img15.hostingpics.net/pics/775393Evolutionrobotsinprogress.png)
+
+# Iterate Quickly
+
+!
+
+![bg](http://farm8.staticflickr.com/7015/6838476583_84898ed5ff_b.jpg)
+
+# Push To Production Early & Often
+
+!
+
+![bg](http://farm7.staticflickr.com/6211/6858583426_1f003ea519_b.jpg)
+
+# Automate! Automate! Automate!
+
+!
+
 ![bg](https://lh6.googleusercontent.com/-76_wSBeN4b0/Um9Dt5NLuAI/AAAAAAAATlo/2JxlxF4yKwg/s640/spainjs_01.png)
 
 # What is ChatOps?
 
 !
 
-# Continuous Pairing
+![bg](http://www.slate.com/content/dam/slate/blogs/future_tense/2012/08/06/robots_may_become_elementary_school_teachers_in_the_future_/111036431.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg)
 
-![bg](http://blog.adrianbolboaca.ro/wp-content/uploads/2013/09/cat-pair-programming.jpg)
-
-- Learn by seeing it done by others.
+# Teach Others By Doing
 
 !
 
-![bg](http://upload.wikimedia.org/wikipedia/en/2/2a/Iowa_-_Wisconsin_2004.jpg)
+![bg](http://farm3.staticflickr.com/2649/3764949110_0db9fe1865_b.jpg)
+
+# Don't Be A Human Keyboard
+
+!
+
+![bg](http://4.bp.blogspot.com/-7n3_4GjBLA4/T5GbZJZuM-I/AAAAAAAAA3g/-o4eG3P9GpE/s1600/pile%2Bof%2Btools.JPG)
+
+# By Placing Tools In The Middle Of The Conversation
+
+!
+
+![bg](http://farm5.staticflickr.com/4068/4638056301_f34564ce78_b.jpg)
+
+# Everyone Is Pairing All Of The Time
+
+!
+
+![bg](http://www4.pictures.zimbio.com/gi/FIFA+2010+World+Cup+Champions+Spain+Victory+5Pc2KfueI5ql.jpg)
 
 # Celebrate Micro Victories
 
 !
 
-# Hubot's Friends
+![bg](http://24.media.tumblr.com/tumblr_lzrnlduF7z1qaxzado1_1280.png)
 
-- Jenkins
-- Heroku
+# Installing A Sense Of Humor
 
 !
 
 ![bg](http://static02.mediaite.com/geekosystem/uploads/2013/12/doge.jpg)
 
-# Beyond Doge bombs
+# Beyond Doge Dombs
 
-- Deployment automation
+<!-- - Deployment automation
 - DDoS attacks mitigation
 - Managing cloud infrastructure
-- Error notifications
+- Error notifications -->
 
 !
 
-## Before you Adopt a Hubot
+![bg](http://i.imgur.com/yqkxlbA.jpg)
 
-- Will Hubot work in my organization?
-- Deployment options
+# Before you Adopt a Hubot
+
+<!-- - Will Hubot work in my organization?
+- Deployment options -->
 
 !
 
-## To Deny or Not To Deny
+![bg](http://farm9.staticflickr.com/8091/8564993892_26c21e8b7c_o.jpg)
 
-- Put trust over permission
+# What About Permissions?
+
+<!-- - Put trust over permission
 - Everything is logged, you know who did what and when
-- Password of the day as a confirmation prompt
+- Password of the day as a confirmation prompt -->
 
 !
 
-## The Nuts and Bolts of Hubot
+![bg](http://hubot.github.com/images/layout/schematic.svg)
 
-- Synatx overview
-- Works with both Coffeescript and Javascript
+# The Nuts and Bolts of Hubot
+
+
+<!-- - Synatx overview
+- Works with both Coffeescript and Javascript -->
+
+!
+
+![bg](http://farm9.staticflickr.com/8348/8264844028_94f0e37319_b.jpg)
+
+# Adapters
 
 !
 
-## Teaching Hubot a New Trick
+![bg](http://zowchow.com/files/2012/11/ss-big-data-brain.jpg)
 
-- Testing locally with bin/hubot
+# The Brain
 
 !
+
+![bg](http://fc02.deviantart.net/fs70/i/2011/231/5/d/pokemon_master_red_by_2d75-d473gi1.jpg)
+
+# Hubot Training 101
