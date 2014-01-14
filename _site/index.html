@@ -18,7 +18,7 @@
   }
   div.centered {
   	margin:auto;
-  	font-size:40px;
+  	font-size:50px;
   	width:20em; /* So we get about 10 words per line */
   }
   .centered h1 {
@@ -65,6 +65,7 @@
     bottom:0;
     opacity:0.45;
     background-size: cover;
+    background-position:center; 
     z-index:-1;
    }
    code {
@@ -103,6 +104,7 @@
  /* End styling */
 </style>
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+
 <script>
 if (!window.jQuery) {
     document.write('<script src="jquery.min.js"><\/script>');
@@ -239,6 +241,7 @@ Present.reload = function() {
         cache: false,
         dataType: 'text',
         success: function(data) {
+
             if (data.length>0) {
                 converter = new Showdown.converter();
                 var converted = converter.makeHtml(data);
