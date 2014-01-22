@@ -1,10 +1,5 @@
 ![bg](http://octodex.github.com/images/hubot.jpg)
 
-<!-- 
-
--->
-
-
 # ShipIt With Hubot
 
 !
@@ -34,11 +29,19 @@
 
 !
 
+![bg](http://farm7.staticflickr.com/6075/6049646962_d5327553ba_b.jpg)
+
+
+# even if it's not ready yet
+
+!
+
+
 
 ![bg](http://farm7.staticflickr.com/6075/6049646962_d5327553ba_b.jpg)
 
 
-# by making deployments easy fun & accessible
+# by making deployments easy fun accessible & safe
 
 !
 
@@ -57,6 +60,12 @@
 # It's about putting tools in the middle of the chatroom conversation
 
 ![bg](http://farm4.staticflickr.com/3206/3108399560_e3cdfbccf9_o.jpg)
+
+!
+
+![bg](http://24.media.tumblr.com/c2bb0f32b5a767e3ad80fc6c14f1e0c3/tumblr_miuial56jj1qedf7ko2_r5_1280.gif)
+
+# With the help of a robot named Hubot
 
 !
 
@@ -150,12 +159,6 @@ thing beer me
 
 !
 
-![bg](http://farm7.staticflickr.com/6211/6858583426_1f003ea519_b.jpg)
-
-# Automate! Automate! Automate!
-
-!
-
 ![bg](http://farm5.staticflickr.com/4003/4310364093_a53195bd03_b.jpg)
 
 # Access control
@@ -190,6 +193,30 @@ thing beer me
 
 !
 
+# Documentation
+
+!
+
+<div class="code">
+# Description:
+#   Natalie!
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot natalie me - A randomly selected natalie
+#   hubot natalie bomb me %3Cnumber%3E - natalie explosion!
+#
+# Author:
+#   o3design
+</div>
+
+!
+
 ![bg](http://farm5.staticflickr.com/4070/4456489056_061592c991_b.jpg)
 
 # Ears
@@ -205,7 +232,7 @@ module.exports = (robot) ->
     msg.http(url)
      .get() (err, res, body) ->
        res = JSON.parse(body)
-       (msg.send res[i]) for i in [0..natalies]
+       (msg.send msg.random res) for i in [0..natalies]
 </div>
 
 !
@@ -219,7 +246,7 @@ module.exports = (robot) ->
     msg.http(url)
      .get() (err, res, body) ->
        res = JSON.parse(body)
-       (msg.send res[i]) for i in [0..natalies]
+       (msg.send msg.random res) for i in [0..natalies]
 </div>
 
 !
@@ -233,7 +260,7 @@ module.exports = (robot) ->
     msg.http(url)
      .get() (err, res, body) ->
        res = JSON.parse(body)
-       (msg.send res[i]) for i in [0..natalies]
+       (msg.send msg.random res) for i in [0..natalies]
 </div>
 
 !
@@ -254,7 +281,7 @@ module.exports = (robot) ->
     <span class="highlight">msg.http(url)</span>
      .get() (err, res, body) ->
        res = JSON.parse(body)
-       (msg.send res[i]) for i in [0..natalies]
+       (msg.send msg.random res) for i in [0..natalies]
 </div>
 
 !
@@ -268,7 +295,7 @@ module.exports = (robot) ->
     msg.http(url)
      <span class="highlight">.get() (err, res, body) -> </span>
        res = JSON.parse(body)
-       (msg.send res[i]) for i in [0..natalies]
+       (msg.send msg.random res) for i in [0..natalies]
 </div>
 
 !
@@ -288,7 +315,7 @@ module.exports = (robot) ->
     msg.http(url)
      .get() (err, res, body) ->
        res = JSON.parse(body)
-       (<span class="highlight">msg.send</span> res[i]) for i in [0..natalies]
+       (<span class="highlight">msg.send</span> msg.random res) for i in [0..natalies]
 </div>
 
 !
@@ -299,21 +326,45 @@ module.exports = (robot) ->
 
 !
 
-```
-url = 'https://natalie.com/natalie-me.json'
-
+<div class="code">
 module.exports = (robot) ->
-  robot.respond /natalie?(?: me)?$/i, (msg) ->
-    msg.http(url)
-      .get() (err, res, body) ->
-        msg.send msg.random JSON.parse(body)
-```
+
+  robot.respond /who is @?([\w .\-]+)\?*$/i, (msg) ->
+    name = msg.match[1].trim()
+
+    users = robot.brain.usersForFuzzyName(name)
+    if users.length is 1
+      user = users[0]
+
+      msg.send "#{name} is user - #{user}"
+</div>
 
 !
 
 ![bg](http://fc02.deviantart.net/fs70/i/2011/231/5/d/pokemon_master_red_by_2d75-d473gi1.jpg)
 
 # Hubot Training 101
+
+!
+
+![bg](http://farm3.staticflickr.com/2422/4098453037_55513099ef_o.jpg)
+
+# The Future
+
+!
+
+![bg](http://farm7.staticflickr.com/6211/6858583426_1f003ea519_b.jpg)
+
+# Automate! Automate! Automate!
+
+!
+
+![bg](http://farm5.staticflickr.com/4061/4425900247_0e9437a37f_b.jpg)
+
+# Pull data into the conversation
+
+- Graphs
+- Logs
 
 !
 
