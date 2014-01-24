@@ -4,13 +4,13 @@
 
 !
 
-![bg](/images/vc-team.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/vc-team.jpg)
 
 # Hi! My name is Owen
 
 !
 
-![bg](/images/vc-team.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/vc-team.jpg)
 
 - Work for VividCortex
 - Frontend developer
@@ -70,7 +70,7 @@
 
 ![bg](http://24.media.tumblr.com/c2bb0f32b5a767e3ad80fc6c14f1e0c3/tumblr_miuial56jj1qedf7ko2_r5_1280.gif)
 
-# Let's put </br>thing to work
+# Let's put </br>Thing to work
 
 !
 
@@ -481,6 +481,24 @@ module.exports = (robot) ->
 ### thing log me webapp 50
 
 ### thing graph me cpu
+
+### thing issues assigned to me
+
+!
+
+![bg](http://static3.wikia.nocookie.net/__cb20090314140222/terminator/images/6/6c/T4-art-concepting-041.jpg)
+
+# System administration
+
+!
+
+![bg](http://static3.wikia.nocookie.net/__cb20090314140222/terminator/images/6/6c/T4-art-concepting-041.jpg)
+
+### thing create db-shard3
+
+### thing backup webapp1
+
+### thing purge logs api-server2
 
 !
 
