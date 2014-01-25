@@ -102,29 +102,28 @@
 
 !
 
-# ShipIt!
+### ShipIt!
+
+![img](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/demo6.png)
 
 !
 
 ### Merge the Pull Request
 
-```
-thing merge webapp 123-shipit into master
-```
+![img](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/demo5.png)
 
 !
 
 ### Then release it
 
-```
-thing release webapp patch
-```
+![img](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/demo7.png)
 
 !
 
-![bg](http://content.screencast.com/users/ozanzal/folders/Jing/media/d8b17b40-2d9e-4e2e-8640-98ba7dc229d7/00000051.png)
-
 # w00t!
+
+![img](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/demo8.png)
+
 
 !
 
@@ -239,7 +238,7 @@ thing release webapp patch
 #
 # Commands:
 #   hubot natalie me - A randomly selected natalie
-#   hubot natalie bomb me %3Cnumber%3E - natalie explosion!
+#   hubot natalie bomb me &lt;number&gt; - natalie explosion!
 #
 # Author:
 #   o3design
