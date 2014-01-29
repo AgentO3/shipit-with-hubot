@@ -30,14 +30,14 @@
 ![bg](http://www.etherice.com/rmx/images/matrix/matrix_code_term.jpg)
 
 
-# ShipIt! is about getting code to production
+# Getting code to production
 
 !
 
-![bg](http://farm4.staticflickr.com/3531/3276844349_305ea53f47_o.jpg)
+![bg](http://farm7.staticflickr.com/6151/6159637428_6bffb5bce1_b.jpg)
 
 
-# even if it's not ready yet
+# early and often
 
 !
 
@@ -46,7 +46,7 @@
 ![bg](http://farm9.staticflickr.com/8542/8683120433_625f99b942_b.jpg)
 
 
-# by making deployments easy fun accessible & safe
+# deployments <br>easy <br>fun <br>accessible & safe
 
 !
 
@@ -135,7 +135,7 @@
 
 !
 
-![bg](http://farm3.staticflickr.com/2649/3764949110_0db9fe1865_b.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/human-keyboard)
 
 # No Human Keyboards Allowed!
 
@@ -258,6 +258,29 @@ module.exports = (robot) ->
      .get() (err, res, body) ->
        pics = JSON.parse(body)
        (msg.send msg.random pics) for i in [0..natalies]
+</div>
+
+!
+
+### If CoffeeScript ain't your thang
+<div class="code">
+
+var url = 'https://natalie.com/natalie-me.json';
+
+module.exports = function(robot) {
+  robot.<span class="highlight">respond</span>(/nataliejs bomb(?: me)?( \d+)?$/i, 
+  function(msg) {
+    var  natalies = msg.match[1] || 4; 
+    msg.http(url).get()(function(err, res, body) {
+      var pics = JSON.parse(body),
+          count = 0;
+      while (count < natalies) {
+        msg.send(msg.random(pics));
+        count ++;
+      }
+    });
+  });
+};
 </div>
 
 !
@@ -447,13 +470,34 @@ module.exports = (robot) ->
 
 ### thing deploy webapp 123-shipit
 
+<div class="code">
+- /Users/owen/code/vividcortex/thing/scripts/deploy.coffee
+- http://10.10.10.175:8080/job/webapp-stage/configure
+- http://10.10.10.175:8080/job/deploy-webapp-stage/configure
+- http://10.10.10.175:8080/job/send-message-to-thing/configure
+</div>
+
 !
 
 ### thing merge webapp 123-shipit into master
 
+<div class="code">
+- /Users/owen/code/vividcortex/thing/scripts/git-merge.coffee
+- http://10.10.10.175:8080/job/merge-branches/configure
+- http://10.10.10.175:8080/job/send-message-to-thing/configure
+</div>
+
 !
 
 ### thing release webapp 123-shipit patch
+
+<div class="code">
+- /Users/owen/code/vividcortex/thing/scripts/deploy.coffee
+- http://10.10.10.175:8080/job/webapp-master/configure
+- http://10.10.10.175:8080/job/release-webapp/configure
+- http://10.10.10.175:8080/job/send-message-to-thing/configure
+</div>
+
 
 !
 
