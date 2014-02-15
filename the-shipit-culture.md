@@ -15,7 +15,8 @@ As a startup it's important to be able to get new features and bug fixes into pr
 
 The goal of "ShipIt" is to nurture a company culture of getting code into production early and often. As an organization we have established some guidelines for our deployment process to help facilitate this. 
 
-** Deployments should be **
+*Deployments should be*
+
 - Easy
 - Safe
 - Accessible
