@@ -477,7 +477,7 @@ module.exports = (robot) ->
 
 !
 
-####In House Scripts
+### In House Scripts
 
 The VividCortex Hubot Script
 
@@ -499,7 +499,7 @@ Elastic Log Hubot Script
 
 !
 
-#### Linkage
+### Linkage
 
 ChatOps at GitHub by Jesse Newland 
 
