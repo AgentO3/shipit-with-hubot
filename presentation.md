@@ -1,6 +1,6 @@
 ![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/hubot.jpg)
 
-# ShipIt with Hubot
+# Ship All the Things: Intro to ChatOps and Hubot
 
 !
 
@@ -13,7 +13,7 @@
 ![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/vc-team.jpg)
 
 - Work for VividCortex
-- Frontend developer
+- Developer
 - Deployment automation
 - Spearheading ChatOps
 - I brew beer, play guitar & snowboard!
@@ -250,7 +250,7 @@
 #   hubot natalie bomb me &lt;number&gt; - natalie explosion!
 #
 # Author:
-#   o3design
+#   AgentO3
 </div>
 
 !
@@ -473,84 +473,7 @@ module.exports = (robot) ->
 
 ![bg](http://fc02.deviantart.net/fs70/i/2011/231/5/d/pokemon_master_red_by_2d75-d473gi1.jpg)
 
-# Hubot Training 101
-
-!
-
-### thing deploy webapp 123-shipit
-
-<div class="code">
-- /Users/owen/code/vividcortex/thing/scripts/deploy.coffee
-- http://10.10.10.175:8080/job/webapp-stage/configure
-- http://10.10.10.175:8080/job/deploy-webapp-stage/configure
-- http://10.10.10.175:8080/job/send-message-to-thing/configure
-</div>
-
-!
-
-### thing merge webapp 123-shipit into master
-
-<div class="code">
-- /Users/owen/code/vividcortex/thing/scripts/git-merge.coffee
-- http://10.10.10.175:8080/job/merge-branches/configure
-- http://10.10.10.175:8080/job/send-message-to-thing/configure
-</div>
-
-!
-
-### thing release webapp 123-shipit patch
-
-<div class="code">
-- /Users/owen/code/vividcortex/thing/scripts/deploy.coffee
-- http://10.10.10.175:8080/job/webapp-master/configure
-- http://10.10.10.175:8080/job/release-webapp/configure
-- http://10.10.10.175:8080/job/send-message-to-thing/configure
-</div>
-
-
-!
-
-![bg](http://farm3.staticflickr.com/2422/4098453037_55513099ef_o.jpg)
-
-# The Future
-
-!
-
-![bg](http://farm7.staticflickr.com/6211/6858583426_1f003ea519_b.jpg)
-
-# Automate! Automate! Automate!
-
-!
-
-![bg](http://farm5.staticflickr.com/4061/4425900247_0e9437a37f_b.jpg)
-
-# Pull data into the conversation
-
-!
-
-![bg](http://farm5.staticflickr.com/4061/4425900247_0e9437a37f_b.jpg)
-
-### thing log me webapp 50
-
-### thing graph me cpu
-
-### thing issues assigned to me
-
-!
-
-![bg](http://static3.wikia.nocookie.net/__cb20090314140222/terminator/images/6/6c/T4-art-concepting-041.jpg)
-
-# System administration
-
-!
-
-![bg](http://static3.wikia.nocookie.net/__cb20090314140222/terminator/images/6/6c/T4-art-concepting-041.jpg)
-
-### thing create db-shard3
-
-### thing backup webapp1
-
-### thing purge logs api-server2
+# Hubot Commands
 
 !
 
@@ -558,8 +481,34 @@ module.exports = (robot) ->
 
 #### Rate my talk 
 
-http://spkr8.com/t/28731
+http://spkr8.com/t/34651
  
 #### Follow Me 
 
-@O3Design
+@AgentO3
+
+!
+
+#Linkage
+
+The VividCortex Hubot Script - https://github.com/VividCortex/hubot-vividcortex
+
+DBA Me Hubot Script - https://github.com/AgentO3/dba-me
+
+Cats Me Hubot Script - https://github.com/AgentO3/cats-me
+
+Elastic Log Hubot Script - https://github.com/AgentO3/elastic-log
+
+!
+
+#More Linkage
+
+ChatOps at GitHub by Jesse Newland - https://www.youtube.com/watch?v=NST3u-GjjFw
+
+ChatOps: Augmented Reality for Ops by Mark Imbriaco - https://www.youtube.com/watch?v=pCVvYCjvoZI
+
+A Guide to Hubot Scripting - https://github.com/github/hubot/blob/master/docs/scripting.md
+
+
+
+
