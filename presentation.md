@@ -1,6 +1,6 @@
-![bg](http://octodex.github.com/images/hubot.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/hubot.jpg)
 
-# ShipIt with Hubot
+# Ship All the Things: Intro to ChatOps and Hubot
 
 !
 
@@ -13,7 +13,7 @@
 ![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/vc-team.jpg)
 
 - Work for VividCortex
-- Frontend developer
+- Developer
 - Deployment automation
 - Spearheading ChatOps
 - I brew beer, play guitar & snowboard!
@@ -21,20 +21,20 @@
 
 !
 
-![bg](http://farm6.staticflickr.com/5018/5405915409_5065c4b297_b.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/ship1.jpg)
 
 # The ShipIt! Culture
 
 !
 
-![bg](http://www.etherice.com/rmx/images/matrix/matrix_code_term.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/matrix_code_term.jpg)
 
 
 # Getting code to production
 
 !
 
-![bg](http://farm7.staticflickr.com/6151/6159637428_6bffb5bce1_b.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/ship2.jpg)
 
 
 # early and often
@@ -43,14 +43,14 @@
 
 
 
-![bg](http://farm9.staticflickr.com/8542/8683120433_625f99b942_b.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/deployment.jpg)
 
 
 # deployments <br>easy <br>fun <br>accessible & safe
 
 !
 
-![bg](http://farm3.staticflickr.com/2850/10501143674_f8fdc7775a_o.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/chat.jpg)
 
 # ChatOps FTW
 
@@ -58,17 +58,17 @@
 
 # Put tools in the middle of the chatroom conversation
 
-![bg](http://farm4.staticflickr.com/3206/3108399560_e3cdfbccf9_o.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/tools.jpg)
 
 !
 
-![bg](http://24.media.tumblr.com/c2bb0f32b5a767e3ad80fc6c14f1e0c3/tumblr_miuial56jj1qedf7ko2_r5_1280.gif)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/robot-dance.gif)
 
 # Meet Thing the VividCortex Hubot
 
 !
 
-![bg](http://24.media.tumblr.com/c2bb0f32b5a767e3ad80fc6c14f1e0c3/tumblr_miuial56jj1qedf7ko2_r5_1280.gif)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/robot-dance.gif)
 
 # Let's put </br>Thing to work
 
@@ -128,7 +128,7 @@
 !
 
 
-![bg](http://farm4.staticflickr.com/3330/4596126247_f5b64904c2_b.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/team.jpg)
 
 
 # Enables everyone to ShipIt!
@@ -142,7 +142,7 @@
 !
 
 
-![bg](http://farm5.staticflickr.com/4068/4638056301_f34564ce78_b.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/pairing.jpg)
 
 # Learn by seeing others
 
@@ -164,6 +164,15 @@
 ![bg](http://i1.ytimg.com/vi/wSReSGe200A/maxresdefault.jpg)
 
 # It's fun!!!
+
+!
+
+![bg](http://i1.ytimg.com/vi/wSReSGe200A/maxresdefault.jpg)
+
+- thing natalie me
+- thing cats bomb me 10
+- thing doge bomb me
+
 
 !
 
@@ -241,7 +250,7 @@
 #   hubot natalie bomb me &lt;number&gt; - natalie explosion!
 #
 # Author:
-#   o3design
+#   AgentO3
 </div>
 
 !
@@ -464,84 +473,7 @@ module.exports = (robot) ->
 
 ![bg](http://fc02.deviantart.net/fs70/i/2011/231/5/d/pokemon_master_red_by_2d75-d473gi1.jpg)
 
-# Hubot Training 101
-
-!
-
-### thing deploy webapp 123-shipit
-
-<div class="code">
-- /Users/owen/code/vividcortex/thing/scripts/deploy.coffee
-- http://10.10.10.175:8080/job/webapp-stage/configure
-- http://10.10.10.175:8080/job/deploy-webapp-stage/configure
-- http://10.10.10.175:8080/job/send-message-to-thing/configure
-</div>
-
-!
-
-### thing merge webapp 123-shipit into master
-
-<div class="code">
-- /Users/owen/code/vividcortex/thing/scripts/git-merge.coffee
-- http://10.10.10.175:8080/job/merge-branches/configure
-- http://10.10.10.175:8080/job/send-message-to-thing/configure
-</div>
-
-!
-
-### thing release webapp 123-shipit patch
-
-<div class="code">
-- /Users/owen/code/vividcortex/thing/scripts/deploy.coffee
-- http://10.10.10.175:8080/job/webapp-master/configure
-- http://10.10.10.175:8080/job/release-webapp/configure
-- http://10.10.10.175:8080/job/send-message-to-thing/configure
-</div>
-
-
-!
-
-![bg](http://farm3.staticflickr.com/2422/4098453037_55513099ef_o.jpg)
-
-# The Future
-
-!
-
-![bg](http://farm7.staticflickr.com/6211/6858583426_1f003ea519_b.jpg)
-
-# Automate! Automate! Automate!
-
-!
-
-![bg](http://farm5.staticflickr.com/4061/4425900247_0e9437a37f_b.jpg)
-
-# Pull data into the conversation
-
-!
-
-![bg](http://farm5.staticflickr.com/4061/4425900247_0e9437a37f_b.jpg)
-
-### thing log me webapp 50
-
-### thing graph me cpu
-
-### thing issues assigned to me
-
-!
-
-![bg](http://static3.wikia.nocookie.net/__cb20090314140222/terminator/images/6/6c/T4-art-concepting-041.jpg)
-
-# System administration
-
-!
-
-![bg](http://static3.wikia.nocookie.net/__cb20090314140222/terminator/images/6/6c/T4-art-concepting-041.jpg)
-
-### thing create db-shard3
-
-### thing backup webapp1
-
-### thing purge logs api-server2
+# Hubot Commands
 
 !
 
@@ -549,8 +481,34 @@ module.exports = (robot) ->
 
 #### Rate my talk 
 
-http://spkr8.com/t/28731
+http://spkr8.com/t/34651
  
 #### Follow Me 
 
-@O3Design
+@AgentO3
+
+!
+
+#Linkage
+
+The VividCortex Hubot Script - https://github.com/VividCortex/hubot-vividcortex
+
+DBA Me Hubot Script - https://github.com/AgentO3/dba-me
+
+Cats Me Hubot Script - https://github.com/AgentO3/cats-me
+
+Elastic Log Hubot Script - https://github.com/AgentO3/elastic-log
+
+!
+
+#More Linkage
+
+ChatOps at GitHub by Jesse Newland - https://www.youtube.com/watch?v=NST3u-GjjFw
+
+ChatOps: Augmented Reality for Ops by Mark Imbriaco - https://www.youtube.com/watch?v=pCVvYCjvoZI
+
+A Guide to Hubot Scripting - https://github.com/github/hubot/blob/master/docs/scripting.md
+
+
+
+

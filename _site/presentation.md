@@ -1,4 +1,4 @@
-![bg](http://octodex.github.com/images/hubot.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/hubot.jpg)
 
 # ShipIt with Hubot
 
@@ -21,20 +21,20 @@
 
 !
 
-![bg](http://farm6.staticflickr.com/5018/5405915409_5065c4b297_b.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/ship1.jpg)
 
 # The ShipIt! Culture
 
 !
 
-![bg](http://www.etherice.com/rmx/images/matrix/matrix_code_term.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/matrix_code_term.jpg)
 
 
 # Getting code to production
 
 !
 
-![bg](http://farm7.staticflickr.com/6151/6159637428_6bffb5bce1_b.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/ship2.jpg)
 
 
 # early and often
@@ -43,14 +43,14 @@
 
 
 
-![bg](http://farm9.staticflickr.com/8542/8683120433_625f99b942_b.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/deployment.jpg)
 
 
 # deployments <br>easy <br>fun <br>accessible & safe
 
 !
 
-![bg](http://farm3.staticflickr.com/2850/10501143674_f8fdc7775a_o.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/chat.jpg)
 
 # ChatOps FTW
 
@@ -58,17 +58,17 @@
 
 # Put tools in the middle of the chatroom conversation
 
-![bg](http://farm4.staticflickr.com/3206/3108399560_e3cdfbccf9_o.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/tools.jpg)
 
 !
 
-![bg](http://24.media.tumblr.com/c2bb0f32b5a767e3ad80fc6c14f1e0c3/tumblr_miuial56jj1qedf7ko2_r5_1280.gif)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/robot-dance.gif)
 
 # Meet Thing the VividCortex Hubot
 
 !
 
-![bg](http://24.media.tumblr.com/c2bb0f32b5a767e3ad80fc6c14f1e0c3/tumblr_miuial56jj1qedf7ko2_r5_1280.gif)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/robot-dance.gif)
 
 # Let's put </br>Thing to work
 
@@ -128,7 +128,7 @@
 !
 
 
-![bg](http://farm4.staticflickr.com/3330/4596126247_f5b64904c2_b.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/team.jpg)
 
 
 # Enables everyone to ShipIt!
@@ -142,7 +142,7 @@
 !
 
 
-![bg](http://farm5.staticflickr.com/4068/4638056301_f34564ce78_b.jpg)
+![bg](https://dl.dropboxusercontent.com/u/69816878/shipit-with-hubot/pairing.jpg)
 
 # Learn by seeing others
 
@@ -164,6 +164,15 @@
 ![bg](http://i1.ytimg.com/vi/wSReSGe200A/maxresdefault.jpg)
 
 # It's fun!!!
+
+!
+
+![bg](http://i1.ytimg.com/vi/wSReSGe200A/maxresdefault.jpg)
+
+- thing natalie me
+- thing cats bomb me 10
+- thing doge bomb me
+
 
 !
 
