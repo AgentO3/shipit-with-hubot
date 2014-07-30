@@ -477,19 +477,7 @@ module.exports = (robot) ->
 
 !
 
-#Q&A
-
-#### Rate my talk 
-
-http://spkr8.com/t/34651
- 
-#### Follow Me 
-
-@AgentO3
-
-!
-
-#Linkage
+####Linkage
 
 The VividCortex Hubot Script
 
@@ -509,7 +497,7 @@ Elastic Log Hubot Script
 
 !
 
-#More Linkage
+#### More Linkage
 
 ChatOps at GitHub by Jesse Newland 
 
@@ -522,6 +510,19 @@ ChatOps: Augmented Reality for Ops by Mark Imbriaco
 A Guide to Hubot Scripting
 
 <small>https://github.com/github/hubot/blob/master/docs/scripting.md</small>
+
+!
+
+#Q&A
+
+#### Rate my talk 
+
+http://spkr8.com/t/34651
+ 
+#### Follow Me 
+
+@AgentO3
+
 
 
 
