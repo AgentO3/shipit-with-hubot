@@ -477,7 +477,7 @@ module.exports = (robot) ->
 
 !
 
-####Linkage
+####In House Scripts
 
 The VividCortex Hubot Script
 
@@ -486,6 +486,8 @@ The VividCortex Hubot Script
 DBA Me Hubot Script
 
 <small>https://github.com/AgentO3/dba-me</small>
+
+!
 
 Cats Me Hubot Script
 
@@ -497,7 +499,7 @@ Elastic Log Hubot Script
 
 !
 
-#### More Linkage
+#### Linkage
 
 ChatOps at GitHub by Jesse Newland 
 
@@ -507,9 +509,12 @@ ChatOps: Augmented Reality for Ops by Mark Imbriaco
 
 <small>https://www.youtube.com/watch?v=pCVvYCjvoZI</small>
 
+!
+
 A Guide to Hubot Scripting
 
 <small>https://github.com/github/hubot/blob/master/docs/scripting.md</small>
+
 
 !
 
