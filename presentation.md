@@ -491,23 +491,37 @@ http://spkr8.com/t/34651
 
 #Linkage
 
-The VividCortex Hubot Script - https://github.com/VividCortex/hubot-vividcortex
+The VividCortex Hubot Script
 
-DBA Me Hubot Script - https://github.com/AgentO3/dba-me
+<small>https://github.com/VividCortex/hubot-vividcortex</small>
 
-Cats Me Hubot Script - https://github.com/AgentO3/cats-me
+DBA Me Hubot Script
 
-Elastic Log Hubot Script - https://github.com/AgentO3/elastic-log
+<small>https://github.com/AgentO3/dba-me</small>
+
+Cats Me Hubot Script
+
+<small>https://github.com/AgentO3/cats-me</small>
+
+Elastic Log Hubot Script
+
+<small>https://github.com/AgentO3/elastic-log</small>
 
 !
 
 #More Linkage
 
-ChatOps at GitHub by Jesse Newland - https://www.youtube.com/watch?v=NST3u-GjjFw
+ChatOps at GitHub by Jesse Newland 
 
-ChatOps: Augmented Reality for Ops by Mark Imbriaco - https://www.youtube.com/watch?v=pCVvYCjvoZI
+<small>https://www.youtube.com/watch?v=NST3u-GjjFw</small>
 
-A Guide to Hubot Scripting - https://github.com/github/hubot/blob/master/docs/scripting.md
+ChatOps: Augmented Reality for Ops by Mark Imbriaco
+
+<small>https://www.youtube.com/watch?v=pCVvYCjvoZI</small>
+
+A Guide to Hubot Scripting
+
+<small>https://github.com/github/hubot/blob/master/docs/scripting.md</small>
 
 
 
